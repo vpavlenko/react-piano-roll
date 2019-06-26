@@ -2,7 +2,11 @@
 
 A React fork of [mjhasbach/pixi-piano-roll](https://github.com/mjhasbach/pixi-piano-roll).
 
-`yarn add react-piano-grod`
+![screenshot](./screenshot.png "screenshot")
+
+## Usage
+
+`yarn add react-piano-grid`
 
 ```jsx
 import PianoRoll from "react-piano-roll";
@@ -25,11 +29,14 @@ import PianoRoll from "react-piano-roll";
         ["0:0:0", "F2", ""],
     ]}
 />
-
 ```
 
 
+<br/><br/>
+
 ---
+
+<br/>
 
 ## Typedefs
 
