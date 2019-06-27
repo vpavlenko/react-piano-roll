@@ -1,4 +1,4 @@
-# React Piano Grid
+# React Piano Roll
 
 A React fork of [mjhasbach/pixi-piano-roll](https://github.com/mjhasbach/pixi-piano-roll).
 
@@ -6,7 +6,7 @@ A React fork of [mjhasbach/pixi-piano-roll](https://github.com/mjhasbach/pixi-pi
 
 ## Usage
 
-`yarn add react-piano-grid`
+`yarn add react-piano-roll`
 
 ```jsx
 import PianoRoll from "react-piano-roll";
