@@ -60,9 +60,7 @@ function App() {
 
 
 
-<br/><br/><br/><br/>
-
----------------------------------
+<br/><br/><br/><br/><br/><br/>
 
 ## 👇 [pixi-piano-roll](https://github.com/mjhasbach/pixi-piano-roll) Docs: 👇
 
