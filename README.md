@@ -30,13 +30,45 @@ import PianoRoll from "react-piano-roll";
     ]}
 />
 ```
+## Playback API
 
+The transport controls are passed down through a ref:
+
+```jsx
+import React, { useRef } from "react";
+import PianoRoll from "./dist/PianoRoll";
+
+function App() {
+  const playbackRef = useRef();
+
+  window.addEventListener("keydown", ({ key }) => {
+    if (key === " ") {
+      playbackRef.current.toggle();
+    } else if (key === "Enter") {
+      playbackRef.current.seek("0:0:0");
+    }
+  });
+
+  return (
+    <PianoRoll
+      ref={playbackRef}
+    />
+  )
+}
+```
+
+
+
+
+<br/><br/><br/><br/>
+
+---------------------------------
+
+## 👇 [pixi-piano-roll](https://github.com/mjhasbach/pixi-piano-roll) Docs: 👇
 
 <br/><br/>
 
----
 
-<br/>
 
 ## Typedefs
 

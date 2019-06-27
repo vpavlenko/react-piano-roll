@@ -48,7 +48,10 @@
   ],
   "scripts": {
     "build": "del-cli dist/* && npm run build-dist",
-    "build-dist": "cross-env NODE_ENV=production babel lib --out-dir dist"
+    "build-dist": "cross-env NODE_ENV=production   babel lib --out-dir dist",
+    "cp-dist2test": "del-cli test/src/dist -f && cp-cli dist test/src/dist",
+    "build-test": "npm run build && npm run cp-dist2test",
+    "test": "npm run build-test && cd test && npm run start"
   },
   "eslintConfig": {
     "extends": "react-app"
