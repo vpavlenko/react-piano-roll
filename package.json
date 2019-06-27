@@ -1,6 +1,6 @@
 {
   "name": "react-piano-roll",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React piano roll component based on mjhasbach/pixi-piano-roll",
   "main": "dist/PianoRoll.js",
   "module": "dist/PianoRoll.js",
