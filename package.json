@@ -29,7 +29,7 @@
   ],
   "dependencies": {
     "musical-scale-colors": "2.0.1",
-    "pixi.js": "3.0.7",
+    "pixi.js":"5.3.8",
     "teoria": "2.1.1"
   },
   "devDependencies": {

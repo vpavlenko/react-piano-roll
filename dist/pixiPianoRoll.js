@@ -105,7 +105,6 @@ function pixiPianoRoll(opt) {
     zoom: 4,
     resolution: 1,
     time: '0:0:0',
-    renderer: 'WebGLRenderer',
     noteFormat: 'String',
     noteData: []
   }, opt);
@@ -132,7 +131,7 @@ function pixiPianoRoll(opt) {
       gridlineContainers = {
     main: new pixi.Container()
   },
-      renderer = new pixi[opt.renderer](opt.width, opt.height, {
+      renderer = new pixi.Renderer(opt.width, opt.height, {
     antialias: opt.antialias,
     autoResize: true
   });
