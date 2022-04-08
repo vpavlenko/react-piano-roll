@@ -15,6 +15,7 @@
     "note",
     "music"
   ],
+  "type": "module",
   "repository": "dpren/react-piano-roll",
   "author": {
     "name": "Darren Prentice",
